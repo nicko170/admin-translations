@@ -28,6 +28,6 @@ class RescanTranslationsController extends BaseController
             return [];
         }
 
-        return redirect('admin/translation');
+        return redirect('translation');
     }
 }

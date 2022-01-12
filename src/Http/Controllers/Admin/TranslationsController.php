@@ -80,7 +80,7 @@ class TranslationsController extends BaseController
             return [];
         }
 
-        return redirect('admin/translation');
+        return redirect('translation');
     }
 
     /**
